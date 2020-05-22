@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: UserData
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: byatham
+Implementation-Vendor-Id: com.anu.user.details
+Build-Jdk: 1.8.0_171
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/UserData
+Created-By: Maven Integration for Eclipse
+
