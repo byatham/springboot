@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: IndianOilCorp
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: byatham
+Implementation-Vendor-Id: com.sb.anu.test
+Build-Jdk: 1.8.0_171
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/IndianOilCorp
+Created-By: Maven Integration for Eclipse
+

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns:th="https://thymeleaf.org">  
+<head>
+<meta charset="ISO-8859-1">
+<title>Spring Boot Test</title>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.min.js"></script>
+    	<script src="hello.js"></script>
+</head>
+<body>
+<form action="/welcome" method="get">  
+            <table>  
+                <tr>  
+                    <td><label for="user-name">User Name</label></td>  
+                    <td><input type="text" name="name"></input></td>  
+                </tr>  
+                <tr>  
+                    <td><label for="email">Email</label></td>  
+                    <td><input type="text" name="email"></input></td>  
+                </tr>  
+                <tr>  
+                    <td></td>  
+                    <td><input type="submit" value="Submit"></input></td>  
+                </tr>  
+            </table>   
+        </form> 
+        <div ng-controller="Hello">
+			<p>The ID is {{greeting.id}}</p>
+			<p>The content is {{greeting.content}}</p>
+		</div>
+        
+</body>
+</html>
