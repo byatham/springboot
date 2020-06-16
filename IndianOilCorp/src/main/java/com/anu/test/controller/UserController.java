@@ -14,7 +14,7 @@ public class UserController {
 	public JSONObject getData()
 	{
 		System.out.println("inside getData()");
-		jsobj=restTemplate.getForObject("http://localhost:8080/user", JSONObject.class);
+		jsobj=restTemplate.getForObject("http://localhost:2022/user", JSONObject.class);
 		System.out.println("response from server >>>>>>>>>>>>>>> *****"+jsobj);
 		return jsobj; 
 		

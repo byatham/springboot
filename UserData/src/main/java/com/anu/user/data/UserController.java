@@ -19,11 +19,11 @@ public class UserController {
 	public JSONObject getUser() 
 	{
 		System.out.println("inside getUser Details");
-		jsonUser.put("name", "As Reddy");
-		jsonUser.put("fathername", "BR Reddy");
+		jsonUser.put("name", "Yatham Balaiah");
+		jsonUser.put("fathername", "Narsimhulu");
 		jsonUser.put("address", "Nagarkurnool");
 		System.out.println(jsonUser); 
-		return jsonUser; 
+		return jsonUser;  
 
 	}
 
